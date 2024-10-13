@@ -18,11 +18,16 @@
     font-family:'Gill Sans', 'Gill Sans MT', 
 }
 
+.navbar-menu:hover{
+    cursor: pointer;
+}
+
 .navbar-right{
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 
 .navbar-search-icon{
     width: 30px;
@@ -52,4 +57,10 @@
 .navbar button:hover{
     background-color: rgb(156, 186, 250);
     color: white;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(49, 49, 94);
+
 }
