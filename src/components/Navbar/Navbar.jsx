@@ -21,9 +21,9 @@ const Navbar = () => {
           <div className='navbar-search-icon'>
           <img src={assets.searchicon} alt="" />
           </div>
-          <div className='navbar-right1'>
+          <div className="navbar-right1">
             <img src={assets.cardicon} alt="" />
-            <div className='dot'></div>
+            <div className="dot"></div>
           </div>
           <button>Sign in</button>
         </div>

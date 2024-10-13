@@ -67,3 +67,17 @@
 
 }
 
+
+.navbar-right1{
+    position: relative;
+}
+
+.navbar-right1 .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: rgb(17, 17, 122);
+    border-radius: 5px;
+    top: -1px;
+    right: -0.5px;
+}
