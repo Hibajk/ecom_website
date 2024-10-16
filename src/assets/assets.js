@@ -19,3 +19,30 @@ export const assets = {
     searchicon,
     cardicon
 }
+
+export const products_list = [
+    {
+        product_name: "iPhone",
+        product_image: iphoneicon
+    },
+
+    {
+        product_name: "iPad",
+        product_image: ipadicon
+    },
+
+    {
+        product_name: "AirPods",
+        product_image: airpods
+    },
+
+    {
+        product_name: "Apple Watche",
+        product_image: watchicon
+    },
+
+    {
+        product_name: "Apple TV",
+        product_image: appletv
+    }
+]
