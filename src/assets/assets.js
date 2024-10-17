@@ -27,6 +27,9 @@ import rating_stars from './rating_stars.png'
 import minus from './minus.png'
 import plus from './plus.png'
 import plusg from './plusg.png'
+import facebook from './facebook.png'
+import instagram from './instagram.png'
+import twitter from './twitter.png'
 
 export const assets = {
     airpods,
@@ -57,7 +60,10 @@ export const assets = {
     rating_stars,
     minus,
     plus,
-    plusg
+    plusg,
+    facebook,
+    twitter,
+    instagram
 }
 
 export const products_list = [
