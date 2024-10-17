@@ -30,6 +30,7 @@ import plusg from './plusg.png'
 import facebook from './facebook.png'
 import instagram from './instagram.png'
 import twitter from './twitter.png'
+import footerlogo from './footerlogo.png'
 
 export const assets = {
     airpods,
@@ -63,7 +64,8 @@ export const assets = {
     plusg,
     facebook,
     twitter,
-    instagram
+    instagram,
+    footerlogo
 }
 
 export const products_list = [
