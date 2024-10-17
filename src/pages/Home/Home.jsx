@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import { useState } from 'react'
 import ProductsDisplay from '../../components/ProductsDisplay/ProductsDisplay'
+import AppDownload from '../../components/AppDownload/AppDownload'
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
         <Header/>
         <ExploreMenu category={category} setCategory={setCategory}/>
         <ProductsDisplay category={category}/>
+        <AppDownload/>
     </div>
   )
 }
