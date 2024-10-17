@@ -3,6 +3,7 @@ import './Home.css'
 import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import { useState } from 'react'
+import ProductsDisplay from '../../components/ProductsDisplay/ProductsDisplay'
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
     <div>
         <Header/>
         <ExploreMenu category={category} setCategory={setCategory}/>
+        <ProductsDisplay category={category}/>
     </div>
   )
 }
