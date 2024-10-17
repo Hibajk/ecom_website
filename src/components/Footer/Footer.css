@@ -49,9 +49,9 @@
 
 .footer-social-icons{
     margin-top: 5px;
-    display: flex; /* Use flexbox to align items in a row */
-    justify-content: center; /* Optional: centers the icons horizontally */
-    align-items: center; /* Optional: aligns the icons vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -63,3 +63,13 @@
     border: none;
 }
 
+@media (max-width:750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+}
