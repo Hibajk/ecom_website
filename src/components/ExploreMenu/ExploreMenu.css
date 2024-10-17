@@ -55,3 +55,20 @@
     border: 2px solid grey;
     padding: 2px;
 }
+
+@media (max-width:1050px) {
+    .explore-products-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:390px) {
+    .explore-products h1{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .explore-products-list{
+        margin: 15px 0px;
+    }
+}
