@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
 
   const [menu,setMenu] = useState("Home")
 
@@ -26,7 +26,7 @@ const Navbar = () => {
             <img src={assets.cardicon} alt="" />
             <div className="dot"></div>
           </div>
-          <button>Sign in</button>
+          <button onClick={()=>setShowLogin(true)}>Sign in</button>
         </div>
     </div>
   )

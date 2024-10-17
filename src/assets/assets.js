@@ -33,6 +33,7 @@ import twitter from './twitter.png'
 import footerlogo from './footerlogo.png'
 import appstore from './apple.png'
 import playstore from './google.png'
+import cross_icon from './cross_icon.png'
 
 export const assets = {
     airpods,
@@ -69,7 +70,8 @@ export const assets = {
     instagram,
     footerlogo,
     appstore,
-    playstore
+    playstore,
+    cross_icon
 }
 
 export const products_list = [
